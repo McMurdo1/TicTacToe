@@ -10,4 +10,11 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction)onLabelTapped:(UITapGestureRecognizer *)tapGestureRecognizer;
+-(NSString *)checkWinningTriptychFirst:(NSString*) labelValue1
+                               second:(NSString*) labelValue2
+                                third:(NSString*) labelValue3;
+
+
 @end
+
